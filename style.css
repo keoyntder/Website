@@ -1,0 +1,416 @@
+
+
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.6;
+}
+
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 30px;
+}
+
+/* Home Section */
+  .homesection .home_text {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 40px;
+    padding-right: 0;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    color: rgb(254, 255, 251);
+    background-color: rgb(44, 43, 43);
+
+  }
+  
+
+  .homesection .intro .Portfolio {
+
+  font-family: "Anton", sans-serif;
+  font-weight: 550;
+  font-size: 87px;
+  font-style: normal;
+  color: rgb(0, 228, 8);
+
+  text-align: left;
+  }
+  .homesection .intro .About {
+
+  font-size: 30px;
+  font-family: miniver, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  color: rgb(254, 255, 251);
+  margin-left: 60px;
+
+  }
+  .homesection .intro  {
+
+  color: rgb(254, 255, 251);
+
+  }
+  .homesection  .intro .description {
+
+  font-family: miniver, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  width: 150%;
+  max-width: 800px;
+  margin-left: -10px;
+  text-align: justify;
+}
+
+
+.homeimg{
+ 
+  width: 400px;
+  border-radius: 20px;
+  box-shadow:  20px 20px rgba(19, 232, 51, 0.2);
+  margin-right: 97px;
+}
+
+/* About Me Section */
+.aboutsection .about_text {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  color: rgb(254, 255, 251);
+  background-color: rgb(255, 255, 255);
+}
+  
+.aboutsection .intro2 {
+color: black;
+margin-top: 120px;
+}
+.HeadA {
+position: relative;
+top: 30px;
+margin-top: -260px; 
+margin-right: 820px;
+font-size: 70px;
+font-family: "Anton", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+}
+.aboutsection .About {
+
+background-color: white;       
+padding: 20px;                  
+border-radius: 10px;            
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+margin: 20px 50px;                 
+text-align: justify;  
+ 
+
+}
+.aboutsection .HeadE {
+position:relative;
+top: 30px;
+margin-top: 10px;
+margin-right: 710px;
+font-size: 70px;
+font-family: "Anton", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.aboutsection .About2 {
+background-color: white;       
+padding: 20px;                  
+border-radius: 10px;            
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+margin: 20px 50px;                 
+text-align: justify;  
+}
+.About3
+{
+  background-color: white;       
+padding: 20px;                  
+border-radius: 10px;            
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+margin: 20px 50px;                 
+text-align: justify;  
+}
+
+
+.aboutimg{
+display: flex;
+margin-left: 10px;
+width: 400px;
+border-radius: 20px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+border: 15px solid #fff;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+/*project*/
+.projectsection  {
+  
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  background-color: rgb(53, 50, 50);
+ }
+ .cards{
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  gap: 120px;              
+  flex-wrap: wrap;        
+  padding: 50px ;
+  box-shadow: rgb(84, 78, 78);
+  
+ }
+ .cardd {
+  position: relative;
+  top: 0px;
+  width: 300px;
+  height: 450px;
+  border-radius: 30px;
+  background: lightgrey;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 1px #37e310;
+  z-index: 0; 
+}
+
+
+.cardd::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%; 
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    #5c5555,
+    #575a5a,
+    #423f40,
+    #4e504d,
+    #4f534f,
+    #00ff2a
+  );
+  animation: rotate 6s linear infinite;
+  z-index: -2;
+}
+
+
+.cardd::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  background: lightgrey;
+  border-radius: 24px;
+  z-index: -1;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainhead{
+  position: relative;
+  top: 50px;
+  left: -400px;
+  font-style: normal;
+  margin-top:280px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #11b426;
+  margin: 0;
+
+} 
+.header {
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style:oblique;
+  text-shadow: #00ff00;
+  
+}
+.paragraph{
+text-align: justify;
+margin: 2px 15px 15px 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+ 
+.contactsection  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: flex-start;
+  color: rgb(3, 3, 3);
+  background-color: rgb(44, 43, 43);
+ }
+ .section-title {
+  margin-top: 150px;
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: -10px;
+  color: #ffffff;
+ 
+
+ }
+ .contact-list  {
+
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: space-between;
+  color: rgb(3, 3, 3);
+
+ 
+ }
+ .contact-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: -259px;
+}
+.contact-item {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  
+
+}
+
+.contact-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #df810f;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.contact-item i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #4158D0;
+}
+.contact-logo{
+  width: 30px;
+
+ 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hobbies Section */
+.hobbiessection  {
+  background-color: rgb(46, 46, 46);
+  color: white; 
+  width: 100%;
+  margin: 0;   
+  padding: 40px 20px; 
+  box-sizing: border-box;
+  color: black;
+  margin-top: auto;     
+
+ }
+ .card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 120px;
+  
+ 
+ }
+ .card{
+  width: 320px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 20px 40px 20px rgba(48, 227, 3, 0.2);
+  margin: 50px;
+  margin-top: -110px;
+}
+.card:hover{  
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #4158D0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img{
+  width: 100%;
+  height: 400px;
+  
+}
+ .card-content{
+  padding: 16px;
+  
+ }
+ .card-content h3{
+  font-size: 28px;
+  margin-bottom: 8px;
+  
+ }
+ .card-content p{
+  color: b#666;
+  font-size: 15px;
+  line-height: 1.3;
+  text-align: justify;
+ }
+ .headerhobbies {
+  position: relative;
+  top: 20px;
+  left: -400px;
+  font-style: normal;
+  margin-top:280px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #11b426;
+  margin: 0;
+ }
+
+ .card .btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #11b426;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  
+ }
+ .card .btn:hover{
+  background-color: #000000;
+ }
+ 

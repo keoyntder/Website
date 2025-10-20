@@ -1,0 +1,70 @@
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 247, 247);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+header{
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 1%;
+background-color: rgb(44, 43, 43);
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+.logoimg{
+width: 20px;
+position: relative;
+left: -600px;
+
+}
+
+.logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(10, 255, 120);
+    text-transform: uppercase;
+    position: absolute;
+    left: 20px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav_links li a{
+   transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    padding: 10px 10px;
+   color: #ffffff;
+   background-color: rgb(255, 0, 0);
+   border-radius: 300px;
+}
+
+button{
+    padding: 15px 25px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 100px;
+    transition: all 0.3s ease 0s;
+    margin-left: 25px;
+    font-style: italic; 
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #ff0000;
+  
+}
+
