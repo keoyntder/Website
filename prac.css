@@ -1,0 +1,21 @@
+*{
+
+    color: blue;
+    
+}
+
+
+h1{
+
+
+
+}
+
+.image{
+
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
